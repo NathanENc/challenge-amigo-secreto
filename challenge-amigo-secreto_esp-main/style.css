@@ -125,6 +125,13 @@ button {
     background-color: #a1a1a1;
 }
 
+.button-add.active {
+    background-color: var(--color-button); 
+    color: var(--color-white);
+    box-shadow: 0 0 10px var(--color-button);
+    transition: 0.3s ease-in-out;
+}
+
 /* Listas */
 ul {
     list-style-type: none;
